@@ -1,5 +1,5 @@
 # Landing page Kickstarter
-  - The landing pag for Kickstarter
+  - The landing page for Kickstarter
       - 1.Stack: HTML5, SASS, BEM;
       - 2.Fully responsive layout was made by using CSS Flexbox;
       - 3.Design of the landing page you could find [here](https://www.figma.com/file/Ujp7bCFuvuJlkn8TSbQPSZ/№11-(kickstarter)?node-id=0%3A1);

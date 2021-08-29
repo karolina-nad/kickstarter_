@@ -5,6 +5,8 @@
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 
   @include onTablet {
     max-width: 990px;
@@ -32,6 +34,7 @@
       width: 340px;
       height: 216px;
       padding-left: 0;
+      padding-right: 20px;
       font-size: 56px;
       line-height: 70px;
     }
@@ -40,6 +43,7 @@
       width: 480px;
       height: 143px;
       line-height: 72px;
+      padding-right: 0;
     }
   }
 
@@ -53,6 +57,11 @@
       max-width: 900px;
       margin-right: 0;
     }
+
+    @include onDesktop {
+      max-width: 500px;
+      margin: 0 auto;
+    }
   }
 
   &__field {
@@ -63,6 +72,7 @@
     padding-right: 30px;
     width: 100%;
     border: 1px solid rgba(189, 189, 189, 1);
+    font-size: 16px;
 
     &::placeholder {
       height: 17px;
